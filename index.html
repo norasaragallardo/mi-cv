@@ -4,26 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
     <title>Mi hoja de vida</title>
 </head>
 <body>
+<section class="container">
+   <h1>MI HOJA DE VIDA</h1>
 
-    <h1>MI HOJA DE VIDA</h1>
-
-    <h3>INFORMACIÓN GENERAL</h3>
-        <P>Nombre y apellido : Nora Sara gallardo Qusipe</P>
+    <h3 >INFORMACIÓN GENERAL</h3>
+    <div class="caja">
+        <section class="caja1">
+        </section>
+        <section class="caja1">
+        <P>Nombre y apellido : Nora Sara Gallardo Qusipe</P>
         <p>Email: nsgallardo.gq@gmail.com</p>
-        <p>telefono : 73514952</p>
+        <p>Telefono : 73514952</p>
         <p>Ubicaion actual : La Paz - Bolivia</p>
-        <a href="https://github.com/norasaragallardo">GitHub </a>  <br>
-        <a href="www.linkedin.com/in/sara-gallardo-66a7251b5" >Linkedln</a>
-        
+        <a href="https://github.com/norasaragallardo" target="_blank">GitHub </a>  <br>
+        <a href="www.linkedin.com/in/sara-gallardo-66a7251b5 " target="_blank" >Linkedln</a>
+        </section>
+    </div> 
+    
     <h3>EXPERIENCIA</h3>
+    <div class="caja">
         <ul>
             <li>Pasante de Seguridad Informática</li>
                 <dl>
                     <dt>CSBP Caja de Salud de la Banca  Privada</dt>
-                    <dd>Encargada de la imagen corporativa y diseño de epagina web</dd>
+                    <dd>manejo de Firewall Fortinet, manejo de servidores, Ingenieria social</dd>
                     <dd>REf- 71244418</dd>
                 </dl>
             <li>Diseñador Gráfico</li>
@@ -34,7 +42,11 @@
                 </dl>
             
         </ul> 
+    </div> 
+   
+
     <h3>HABILIDADES TÉCNICAS</h3>
+    <div class="caja">
         <table border="1px">
             <tr>
                 <td>Nombre</td>
@@ -61,7 +73,10 @@
                 <td>Html, Css,</td>
             </tr>
         </table>
+    </div>
+   
     <h3>INTERESES</h3>
+    <div class="caja">
         <table border="1px">
             <tr>
                 <td>diseño</td>
@@ -80,16 +95,29 @@
         
         <br>
         <br>
-    <div>
+    </div>
+    
+    <h3 >CONTACTAR</h3>    
+    <div class="caja">
         <label for="email">Ingrese su email:</label>
         <input type="email" id="email">
         <br>
         <br>
         <textarea name="textarea" rows="10" cols="50"> Escribe un mensaje </textarea>
         <br>
-        <button>contactar</button>
+        <button >contactar</button>
     </div>
+</div>
 
-    
+<footer>
+    <div class="caja">
+        <a href="https://www.facebook.com/sarita.gallardo.56" target="_blank"><img src="assets/img/facebook-logo-3-1.png" alt="" ></a>
+        <a href="https://api.whatsapp.com/send?phone=59173514952&text=hola" target="_blank"><img src="assets/img/icono-del-logotipo-de-whatsapp-voronezh-rusia-enero-cuadrado-verde-con-sombra-suave-171161308.jpg" alt=""></a>
+        <a href="https://www.linkedin.com/in/sara-gallardo-66a7251b5/" target="_blank"><img src="assets/img/LinkedIn_logo_initials.png" alt=""></a>
+        <a href="https://github.com/norasaragallardo" target="_blank"><img src="assets/img/01e500fca29c045d432b64f285f9c229.png" alt=""></a>
+        
+    </div>
+</footer>
+</section> 
 </body>
 </html>
